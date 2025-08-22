@@ -5,7 +5,8 @@ const { spawn } = require('child_process');
 router.post('/', (req, res) => {
   const { text } = req.body;
 
-  const process = spawn('python', ['analyze.py', text]);
+  python = 'D:\\Sentiment-Analyzer\\server\\venv\\Scripts\\python.exe'
+  const process = spawn(python, ['analyze.py', text]);
 
   process.stdout.on('data', (data) => {
     const sentiment = data.toString().trim();
