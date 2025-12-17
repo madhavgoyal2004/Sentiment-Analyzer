@@ -136,7 +136,7 @@ Sentiment-Analyzer/
 
 ## Results
 
-The application provides accurate sentiment analysis for most text inputs, correctly identifying positive, negative, and neutral sentiments. However, like most NLP tools, the accuracy may vary depending on:
+The application provides sentiment analysis for text inputs, identifying positive, negative, and neutral sentiments. Like most NLP tools, the accuracy may vary depending on:
 
 - Text complexity and context
 - Sarcasm or figurative language
